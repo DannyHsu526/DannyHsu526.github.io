@@ -103,13 +103,13 @@ $(document).ready(function() {
                 APPID:appid,
                 units:"metric"
             });
-            data.success(
+            data.then(
                 function(msg){
                     setResponse("Bot : The weather is " + msg.weather[0].description + " and the temperature is" + 
                                " around " + msg.main.temp+"&#8451;.\n");
                 }
             );
-            data.error(
+            data.catch(
                 function(msg){
                     console.log("Error!");
                 }
