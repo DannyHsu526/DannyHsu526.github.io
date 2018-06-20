@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    font-size: 30px;
+    background-image: url(images/bgIMG2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+canvas{
+    border: 2px solid black;
+    background-image: url(images/brickRoad.png);
+}
+
+#talkBox{
+    height: 20px;
+    color: brown;
+    font-size: 26px;
+    font-weight: bold;  
+}
+
+.content{
+    display: inline-block;
+}
+#img1{
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+    width: 480px;
+    height: 360px;
+}

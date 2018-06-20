@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-size: 30px;
+}
+
+#courseTable{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+td{
+    border-bottom: 1px solid blue;
+    border: 2px solid black;
+}
+
+.explainBtn{
+    font-size: 10px;
+}
+
+#img1{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}

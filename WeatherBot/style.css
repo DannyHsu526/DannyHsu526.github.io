@@ -1,0 +1,7 @@
+body { 
+    text-align: center;
+    font-size: 30px;
+}
+
+#inputButton { width: 400px; }
+#response { width: 100%; }

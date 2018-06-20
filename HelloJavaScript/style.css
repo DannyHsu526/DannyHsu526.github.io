@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    font-size: 30px;
+    /*background-image: url("https://www.ilmartino.it/wp-content/uploads/2017/02/gatto-neve-167298.jpg");*/
+    background-repeat: no-repeat;
+}
+
+#button1{
+    padding: 20px 35px;
+    font-size: 30px;
+}
+
+#list{
+    text-align: left;
+    color: darkblue;
+}
+
+#outcome{
+    color: darkred;
+    font-size: 90px;
+}
+
+#img1{
+    position: absolute;
+    right: 100px;
+    top: 400px;
+    height: 300px;
+    width: 400px;
+    max-height: 70%;
+    max-width: 70%;
+}
+.themeChoice{
+    font-size: 25px;
+    padding: 15px 25px;
+}
+#choiceNotice{
+    color: red;
+}
