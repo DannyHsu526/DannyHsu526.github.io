@@ -96,7 +96,7 @@ $(document).ready(function() {
 		}
         
         function getWeatherData(queryInfo){
-            var url = "http://api.openweathermap.org/data/2.5/weather?";
+            var url = "https://api.openweathermap.org/data/2.5/weather?";
             var appid = "5d0acef4d4e3a8ebd7a9bf6ad78da1f0";
             var data = $.getJSON(url,{
                 q:queryInfo["geo-city"],
